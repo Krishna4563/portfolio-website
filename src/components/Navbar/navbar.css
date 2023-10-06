@@ -1,0 +1,112 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.596);
+  height: 4.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.name-logo-text {
+  color: aqua;
+  font-family: Avenir, system-ui, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+}
+
+.desktopMenuListItem {
+  font-family: "Poppins", sans-serif;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.desktopMenuListItem:hover {
+  color: aqua;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid aqua;
+}
+
+.github-btn {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 8px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20px; /* Adjust the margin as needed to space it from other menu items */
+}
+.github-img {
+  max-width: 28px; /* Adjust the max width as needed */
+  margin-right: 7px; /* Add margin to separate the image from text */
+}
+
+.mobilemenu {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .desktopMenu {
+    display: none;
+  }
+  .name-logo-text {
+    font-size: 18px;
+  }
+  .navbar {
+    padding: 10px 12px;
+  }
+
+  .mobilemenu {
+    display: block;
+    object-fit: cover;
+    width: 3rem;
+    padding: 10px;
+    padding-right: 0px;
+  }
+  .github-btn,
+  .github-img {
+    display: none;
+  }
+}
+
+.navmenu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.listitem {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.listitem:hover {
+  color: #0078d4;
+}

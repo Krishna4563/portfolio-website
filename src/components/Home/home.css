@@ -1,0 +1,69 @@
+#home {
+  min-height: calc(100vh - 4rem);
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.homeContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hello {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.myname {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+.introduction {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.fullstacktextload {
+  font-size: 24px;
+  font-weight: bold;
+  animation: textLoad 2s infinite;
+}
+
+.description {
+  font-size: 16px;
+  color: #929090;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: rgb(3, 174, 95);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: crimson;
+}
+
+@media (max-width: 768px) {
+  .myname {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 16px;
+    padding: 10px;
+  }
+}

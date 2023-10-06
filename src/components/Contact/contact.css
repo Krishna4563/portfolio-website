@@ -1,0 +1,125 @@
+#contact {
+  min-height: calc(100vh - 8.5rem);
+  padding: 0;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.contactPage {
+  min-height: calc(100vh - 8.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactPageTitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: rgb(238, 235, 235);
+}
+
+.contactDesc {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  color: #a1a0a0;
+}
+
+.contactform {
+  max-width: 500px;
+  margin: 5px auto;
+  margin-bottom: 3rem;
+  padding: 20px;
+  background-color: whitesmoke;
+  /* background: rgb(133, 132, 132); */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fullname,
+.email,
+.msg {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.msg {
+  resize: vertical;
+}
+
+.submitbtn {
+  background-color: #0078d4;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitbtn:hover {
+  background-color: #005ea2;
+}
+
+.footer-div {
+  width: 100vw;
+  height: 6rem;
+  /* background: rgb(40, 40, 40); */
+  background: white;
+  font-weight: 300;
+  font-size: small;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+.link {
+  width: 1.7rem;
+  object-fit: cover;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.link:hover {
+  transform: scale(1.3);
+}
+
+.mobile-number-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-img {
+  width: 1.7rem;
+  object-fit: cover;
+}
+
+.number {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contactform {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 0px;
+  }
+
+  #contact {
+    padding-bottom: 0px;
+  }
+}

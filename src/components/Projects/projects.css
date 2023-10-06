@@ -1,0 +1,84 @@
+#projectsection {
+  min-height: calc(100vh - 4.5rem);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.prh1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: rgb(238, 235, 235);
+}
+
+.prcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 10px 20px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 300px;
+}
+
+.projectImg {
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.prpara {
+  font-size: 18px;
+  margin: 20px 0;
+  color: black;
+}
+
+.demogit {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.demo,
+.github {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.demo {
+  background-color: #0078d4;
+  color: #fff;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.demo:hover,
+.github:hover {
+  transform: scale(0.95);
+}
+.blockbtn:hover {
+  cursor: not-allowed;
+}
+.github {
+  background-color: #333;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 auto 20px;
+  }
+}
