@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./home.css";
-import resume from "../../assets/Krishna Keshava Das - RESUME.pdf";
+import resume from "../../assets/Krishna Keshava Das RESUME.pdf";
 
 const Home = () => {
   return (
