@@ -3,6 +3,7 @@ import "./projects.css";
 import project1 from "../../assets/weather-app-img.png";
 import project2 from "../../assets/todo-app-img.png";
 import project3 from "../../assets/portfolio-img.png";
+import project4 from "../../assets/netflix-app-img.png";
 
 const Project = () => {
   return (
@@ -30,7 +31,7 @@ const Project = () => {
           </div>
         </div>
         <div className="container">
-          <img src={project2} alt="project1img" className="projectImg" />
+          <img src={project2} alt="project2img" className="projectImg" />
           <p className="prpara">To-Do Application</p>
           <div className="demogit">
             <a
@@ -50,12 +51,32 @@ const Project = () => {
           </div>
         </div>
         <div className="container">
-          <img src={project3} alt="project1img" className="projectImg" />
+          <img src={project4} alt="project4img" className="projectImg" />
+          <p className="prpara">Netflix Clone</p>
+          <div className="demogit">
+            <a
+              href="https://netflix-clone-omega-plum.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a>
+            <a
+              href="https://github.com/Krishna4563/Netflix-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
+        <div className="container">
+          <img src={project3} alt="project3img" className="projectImg" />
           <p className="prpara">Portfolio Website</p>
           <div className="demogit">
             {/* <button className="demo blockbtn">Demo</button> */}
             <a
-              href="https://github.com/MADHANRAJ-R/Portfolio-Website.git"
+              href="https://github.com/Krishna4563/portfolio-website"
               target="_blank"
               rel="noopener noreferrer"
             >
