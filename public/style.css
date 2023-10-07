@@ -8,10 +8,23 @@
 }
 
 body {
+  /* background-image: linear-gradient(315deg, #000000 0%, #130f40 74%); */
+
+  /* background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  ); */
+
+  background: radial-gradient(ellipse at 45% 45%, #24365a 0%, #000000 100%);
+
   /* background: radial-gradient(ellipse at 64.86% 100%, #030e28, #04399c); */
 
   /* background-color: #07051c; */
-  background-image: linear-gradient(315deg, #000000 0%, #130f40 74%);
+
+  /* background-image: linear-gradient(90deg, #1c1c1c 0%, #090909 100%); */
+
   overflow-x: hidden;
 }
 
