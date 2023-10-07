@@ -71,9 +71,7 @@ const Contact = () => {
         <footer className="footer-div">
           <div className="links">
             <a
-              href="https://mail.google.com/mail/?view=cm&to=daskrishna0902@gmail.com"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:daskrishna0902@gmail.com"
             >
               <img src={emailImg} alt="Email" className="link" />
             </a>
