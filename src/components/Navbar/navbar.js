@@ -133,7 +133,7 @@ const Navbar = () => {
             setshowmenu(false);
           }}
         >
-          Project
+          Projects
         </Link>
         <Link
           activeClass="active"
