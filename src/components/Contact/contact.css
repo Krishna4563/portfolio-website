@@ -14,7 +14,7 @@
 
 .contactPageTitle {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: rgb(238, 235, 235);
 }
 
@@ -121,5 +121,9 @@
 
   #contact {
     padding-bottom: 0px;
+  }
+
+  .contactPage {
+    margin-top: 1rem;
   }
 }
