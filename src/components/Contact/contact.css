@@ -1,12 +1,11 @@
 #contact {
-  min-height: calc(100vh - 5rem);
-  margin-top:2rem;
+  min-height: calc(100vh - 5.5rem);
   padding: 0;
   text-align: center;
   padding-bottom: 0px;
 }
 .contactPage {
-  min-height: calc(100vh - 5rem);
+  min-height: calc(100vh - 5.5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +20,7 @@
 
 .contactDesc {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 0 10px;
   color: #a1a0a0;
 }
