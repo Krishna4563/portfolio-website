@@ -1,5 +1,6 @@
 #home {
   min-height: calc(100vh - 4rem);
+
   color: #fff;
   text-align: center;
   padding: 80px 0;
@@ -68,5 +69,11 @@
   .description {
     font-size: 16px;
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .myname {
+    font-size: 20px;
   }
 }

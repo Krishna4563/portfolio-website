@@ -1,11 +1,9 @@
 #contact {
-  min-height: calc(100vh - 8.5rem);
-  padding: 0;
+  padding-top: 1rem;
   text-align: center;
-  padding-bottom: 0px;
 }
 .contactPage {
-  min-height: calc(100vh - 8.5rem);
+  min-height: calc(100vh - 10.5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,8 +25,8 @@
 
 .contactform {
   max-width: 500px;
-  margin: 5px auto;
-  margin-bottom: 3rem;
+  margin: 10px auto;
+
   padding: 20px;
   background-color: whitesmoke;
   /* background: rgb(133, 132, 132); */
@@ -77,12 +75,11 @@
   background: white;
   font-weight: 300;
   font-size: small;
-  margin-bottom: 0;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 0.5rem;
 }
 
 .link {
@@ -115,12 +112,7 @@
 @media screen and (max-width: 768px) {
   .contactform {
     width: 90%;
-    margin-top: 3rem;
-    margin-bottom: 0px;
-  }
-
-  #contact {
-    padding-bottom: 0px;
+    margin-top: 1rem;
   }
 
   .contactPage {

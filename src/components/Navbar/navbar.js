@@ -65,7 +65,7 @@ const Navbar = () => {
           duration={200}
           className="desktopMenuListItem"
         >
-          Contact Me
+          Contact
         </Link>
       </div>
       <a href="https://github.com/Krishna4563" target="_blank" rel="noreferrer">

@@ -64,15 +64,18 @@ const Contact = () => {
             placeholder="Your Message"
           ></textarea>{" "}
           <br />
-          <button type="submit" value="Send" className="submitbtn">
+          <button
+            type="submit"
+            value="Send"
+            className="submitbtn"
+            onClick={() => alert("Mail Sent Successfully!")}
+          >
             Submit
           </button>
         </form>
         <footer className="footer-div">
           <div className="links">
-            <a
-              href="mailto:daskrishna0902@gmail.com"
-            >
+            <a href="mailto:daskrishna0902@gmail.com">
               <img src={emailImg} alt="Email" className="link" />
             </a>
 
