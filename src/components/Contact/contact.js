@@ -15,7 +15,7 @@ const Contact = () => {
     e.target.reset();
   };
   const messageSent = () => {
-    window.alert("Successfully Message Sent");
+    window.alert("Mail sent successfully");
   };
 
   const form = useRef();
