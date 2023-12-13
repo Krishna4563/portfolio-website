@@ -50,12 +50,14 @@ const Contact = () => {
             className="fullname"
             placeholder="Your Name"
             name="from_name"
+            required
           />
           <input
             type="email"
             className="email"
             placeholder="Your Email"
             name="from_email"
+            required
           />
           <textarea
             name="message"
