@@ -70,7 +70,6 @@ const Contact = () => {
             type="submit"
             value="Send"
             className="submitbtn"
-            onClick={() => alert("Mail Sent Successfully!")}
           >
             Submit
           </button>
