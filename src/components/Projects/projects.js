@@ -5,6 +5,7 @@ import project2 from "../../assets/todo-app-img.png";
 import project3 from "../../assets/portfolio-img.png";
 import project4 from "../../assets/netflix-app-img.png";
 import project5 from "../../assets/qr-app-img.png";
+import blackImg from "../../assets/black-img.jpg";
 
 const Project = () => {
   return (
@@ -12,7 +13,7 @@ const Project = () => {
       <h1 className="prh1">Projects</h1>
       <div className="prcontainer">
         <div className="container">
-          <img src={project5} alt="project2img" className="projectImg" />
+          <img src={blackImg} alt="project2img" className="projectImg" />
           <p className="prpara">Course Selling Application</p>
           <div className="demogit">
             {/* <a
