@@ -5,7 +5,7 @@ import twitterImg from "../../assets/twitter-logo-img.png";
 import emailImg from "../../assets/email-logo-2.png";
 import linkedinImg from "../../assets/linkedin.png";
 import githubImg from "../../assets/github-icon.png";
-import phoneImg from "../../assets/phone-logo.png";
+// import phoneImg from "../../assets/phone-logo.png";
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -66,11 +66,7 @@ const Contact = () => {
             placeholder="Your Message"
           ></textarea>{" "}
           <br />
-          <button
-            type="submit"
-            value="Send"
-            className="submitbtn"
-          >
+          <button type="submit" value="Send" className="submitbtn">
             Submit
           </button>
         </form>
@@ -104,10 +100,10 @@ const Contact = () => {
               <img src={twitterImg} alt="Twitter" className="link" />
             </a>
           </div>
-          <div className="mobile-number-div">
+          {/* <div className="mobile-number-div">
             <img src={phoneImg} alt="mobile-number" className="mobile-img" />
             <span className="number">+91&minus;9080344030</span>
-          </div>
+          </div> */}
         </footer>
       </div>
     </section>

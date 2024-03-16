@@ -4,12 +4,53 @@ import project1 from "../../assets/weather-app-img.png";
 import project2 from "../../assets/todo-app-img.png";
 import project3 from "../../assets/portfolio-img.png";
 import project4 from "../../assets/netflix-app-img.png";
+import project5 from "../../assets/qr-app-img.png";
 
 const Project = () => {
   return (
     <section id="projectsection">
       <h1 className="prh1">Projects</h1>
       <div className="prcontainer">
+        <div className="container">
+          <img src={project5} alt="project2img" className="projectImg" />
+          <p className="prpara">Course Selling Application</p>
+          <div className="demogit">
+            {/* <a
+              href="https://qr-code-app-five.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a> */}
+            <a
+              href="https://github.com/Krishna4563/course-selling-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
+        <div className="container">
+          <img src={project5} alt="project2img" className="projectImg" />
+          <p className="prpara">QR-Code Application</p>
+          <div className="demogit">
+            <a
+              href="https://qr-code-app-five.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a>
+            <a
+              href="https://github.com/Krishna4563/qr-code-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
         <div className="container">
           <img src={project1} alt="project1img" className="projectImg" />
           <p className="prpara">Weather Forecast Application</p>

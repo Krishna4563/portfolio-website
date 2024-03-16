@@ -2,11 +2,12 @@
   padding: 50px;
   text-align: justify;
   max-width: 50rem;
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 9.5rem);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .abouth1 {
