@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./home.css";
-import resume from "../../assets/Krishna Keshava Das RESUME.pdf";
+import resume from "../../assets/RESUME.pdf";
 
 const Home = () => {
   return (
@@ -14,9 +14,9 @@ const Home = () => {
         <br />
         <span className="fullstacktextload">Fullstack Developer</span>
         <p className="description">
-          I'm a software enthusiast with a focus on building web applications,
+          I'm a software developer with a focus on building web applications,
           using technologies like React, Node.js, MongoDB, and Express.js to
-          create exciting projects.
+          create exciting user friendly applications.
         </p>
         <a href={resume} download="Krishna Keshava Das">
           <button id="downloadButton" className="btn">
