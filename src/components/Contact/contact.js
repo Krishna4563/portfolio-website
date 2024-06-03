@@ -41,8 +41,8 @@ const Contact = () => {
       <div className="contactPage">
         <h1 className="contactPageTitle">Contact Me</h1>
         <span className="contactDesc">
-          Please complete the form below to initiate a conversation regarding
-          possible employment prospects.
+          Complete the form below to initiate a conversation regarding possible
+          employment prospects.
         </span>
         <form className="contactform" ref={form} onSubmit={handleSubmit}>
           <input
