@@ -5,6 +5,10 @@ import project2 from "../../assets/todo-app-img.png";
 import project3 from "../../assets/portfolio-img.png";
 import project4 from "../../assets/netflix-app-img.png";
 import project5 from "../../assets/qr-app-img.png";
+import project6 from "../../assets/movie-app-img.png";
+import project7 from "../../assets/aws-app-img.png";
+import project8 from "../../assets/book-app-img.png";
+import project9 from "../../assets/candidate-job-platform-img.png";
 import blackImg from "../../assets/black-img.jpg";
 
 const Project = () => {
@@ -13,18 +17,38 @@ const Project = () => {
       <h1 className="prh1">Projects</h1>
       <div className="prcontainer">
         <div className="container">
-          <img src={blackImg} alt="project2img" className="projectImg" />
-          <p className="prpara">Course Selling Application</p>
+          <img src={project7} alt="project2img" className="projectImg" />
+          <p className="prpara">AWS DNS Management Dashboard Application</p>
           <div className="demogit">
-            {/* <a
-              href="https://qr-code-app-five.vercel.app"
+            <a
+              href="https://aws-dns-dashboard.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="demo">Demo</button>
-            </a> */}
+            </a>
             <a
-              href="https://github.com/Krishna4563/course-selling-app"
+              href="https://github.com/Krishna4563/aws-dns-dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
+        <div className="container">
+          <img src={project6} alt="project2img" className="projectImg" />
+          <p className="prpara">Movie Library Application</p>
+          <div className="demogit">
+            <a
+              href="https://movie-hub-client.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a>
+            <a
+              href="https://github.com/Krishna4563/movie-hub-app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +58,7 @@ const Project = () => {
         </div>
         <div className="container">
           <img src={project5} alt="project2img" className="projectImg" />
-          <p className="prpara">QR-Code Application</p>
+          <p className="prpara">QR-Code Generator Application</p>
           <div className="demogit">
             <a
               href="https://qr-code-app-five.vercel.app"
@@ -45,6 +69,46 @@ const Project = () => {
             </a>
             <a
               href="https://github.com/Krishna4563/qr-code-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
+        <div className="container">
+          <img src={project9} alt="project2img" className="projectImg" />
+          <p className="prpara">Job Search Platform Application</p>
+          <div className="demogit">
+            <a
+              href="https://candidate-application-platform-chi.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a>
+            <a
+              href="https://github.com/Krishna4563/weekday-assignment"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
+        <div className="container">
+          <img src={blackImg} alt="project2img" className="projectImg" />
+          <p className="prpara">Course Selling App (Backend)</p>
+          <div className="demogit">
+            {/* <a
+              href="https://qr-code-app-five.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a> */}
+            <a
+              href="https://github.com/Krishna4563/course-selling-app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,6 +129,27 @@ const Project = () => {
             </a>
             <a
               href="https://github.com/Krishna4563/weather-app-react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="github">GitHub</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="container">
+          <img src={project8} alt="project2img" className="projectImg" />
+          <p className="prpara">Book Library Application</p>
+          <div className="demogit">
+            <a
+              href="https://book-data-dashboard.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="demo">Demo</button>
+            </a>
+            <a
+              href="https://github.com/Krishna4563/nua-assignment"
               target="_blank"
               rel="noopener noreferrer"
             >

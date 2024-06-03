@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./home.css";
-import resume from "../../assets/RESUME.pdf";
 
 const Home = () => {
   return (
@@ -14,14 +13,19 @@ const Home = () => {
         <br />
         <span className="fullstacktextload">Fullstack Developer</span>
         <p className="description">
-          I'm a software developer with a focus on building web applications,
-          using technologies like React, Node.js, MongoDB, and Express.js to
-          create exciting user friendly applications.
+          Experienced frontend developer, proficient in React.js for building
+          impactful and user-friendly websites. Skilled in the MERN stack,
+          driven by a passion for problem-solving and innovation in a dynamic
+          industry
         </p>
-        <a href={resume} download="Krishna Keshava Das">
+        <a
+          href="https://drive.google.com/file/d/1AUItCIeCaFeUIKDaykA5h01KrWDaQikt/view?usp=drivesdk"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button id="downloadButton" className="btn">
             {" "}
-            Download Resume
+            View Resume
           </button>{" "}
         </a>
       </div>
