@@ -19,7 +19,7 @@ const Home = () => {
           industry
         </p>
         <a
-          href="https://drive.google.com/file/d/1AUItCIeCaFeUIKDaykA5h01KrWDaQikt/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1oMOymiQY1kaa8FpIOQfRbSOdbFbAR4Ky/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
